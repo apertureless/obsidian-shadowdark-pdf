@@ -1,4 +1,7 @@
 @media print {
+    @page {
+        size: letter portrait;
+    }
     /**
     * Headlines
     **/
