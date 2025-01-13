@@ -1,0 +1,99 @@
+@media print {
+    /**
+    * 2 Column Layout
+    **/
+    .markdown-preview-view {
+        column-count: 2;
+        column-gap: 2em;
+        font-family: "Montserrat" !important;
+        line-height: 1.2em;
+    }
+
+    /**
+    * Headlines
+    **/
+    .markdown-preview-view h1:first-of-type {
+        column-span: all;
+        text-align: center;
+        font-family: "Montserrat" !important;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff !important;
+        background-color: black;
+    }
+
+    .markdown-preview-view h2 {
+        text-transform: uppercase;
+        font-family: "Montserrat" !important;
+        font-weight: bold !important;
+    }
+
+    .markdown-preview-view h3 {
+        font-family: "Montserrat" !important;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff !important;
+        background-color: black;
+        padding: 6px;
+        text-align: center;
+    }
+
+    /**
+    * Content Elements
+    **/
+    .markdown-preview-view ul,
+    .markdown-preview-view a,
+    .markdown-preview-view p,
+    .markdown-preview-view strong,
+    .markdown-preview-view em {
+        font-family: "Montserrat" !important;
+        font-weight: normal;
+        line-height: 1.5rem;
+    }
+
+    .markdown-preview-view a,
+    .markdown-preview-view strong {
+        text-transform: none;
+        font-weight: bold;
+    }
+
+    /**
+    * Table
+    **/
+    .markdown-preview-view table {
+        width: 100%;
+        border-top: 0px solid black;
+        border-bottom: 0px solid black;
+        border-left: none;
+        border-right: none;
+        border-collapse: collapse;
+        margin: 1em 0;
+    }
+
+    .markdown-preview-view tbody tr {
+        border-bottom: 1px dotted #999 !important;
+    }
+
+    .markdown-preview-view table thead,
+    .markdown-preview-view table thead th {
+        background-color: white !important;
+        color: black !important;
+        font-weight: bold;
+        border-bottom: 2px solid black !important;
+    }
+
+    .markdown-preview-view tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    .markdown-preview-view td,
+    .markdown-preview-view th {
+        padding: 8px;
+        text-align: left;
+        border-right: 0px solid !important;
+        border-left: 0px solid !important;
+        font-family: "Montserrat" !important;
+        font-weight: normal;
+        line-height: 1.5rem;
+    }
+}
