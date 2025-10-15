@@ -32,15 +32,16 @@
         font-weight: bold;
         color: #fff !important;
         background-color: black;
+        padding: 6px;
     }
 
-    .markdown-preview-view h2 {
+    .markdown-preview-view h3 {
         text-transform: uppercase;
         font-family: "Montserrat" !important;
         font-weight: bold !important;
     }
 
-    .markdown-preview-view h3 {
+    .markdown-preview-view h2 {
         font-family: "Montserrat" !important;
         text-transform: uppercase;
         font-weight: bold;
